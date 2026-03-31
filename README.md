@@ -22,3 +22,5 @@ Copy all binaries to /lib/firmware/updates/i915/:
 sudo mkdir -p /lib/firmware/updates/i915/
 sudo cp firmware/*.bin /lib/firmware/updates/i915/
 ```
+
+Ensure your intrd and intitramfs gets updated or re-generated.
